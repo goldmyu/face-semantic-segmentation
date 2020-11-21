@@ -1,0 +1,4 @@
+.idea
+generated_face_seg/
+data-sets/
+NovelViewSynthesis.py
