@@ -2,3 +2,4 @@
 generated_face_seg/
 data-sets/
 NovelViewSynthesis.py
+sbatch_face_seg.sh
