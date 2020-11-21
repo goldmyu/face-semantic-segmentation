@@ -1,7 +1,7 @@
 # Face Semantic Segmentation
 A PyTorch implementation to the Face Semantic Segmentation problem using a U-Net like approach.
 
-The data-set [1] is available here - [FASSEG-repository](https://github.com/goldmyu/face-semantic-segmentation)
+The data-set [1] is available here - [FASSEG-repository](https://github.com/massimomauro/FASSEG-repository)
 
 
 References
