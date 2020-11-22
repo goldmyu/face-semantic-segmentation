@@ -42,7 +42,7 @@ IEEE International Conference on Image Processing (ICIP), 2015
 -- [**PDF**](https://github.com/massimomauro/FASSEG-repository/blob/master/papers/multiclass_face_segmentation_ICIP2015.pdf)
 
 <a id="1">[2]</a> 
-Ronneberger, Olaf, Philipp Fischer, and Thomas Brox. 
-"U-net: Convolutional networks for biomedical image segmentation." 
+*Ronneberger*, *Olaf*, *Philipp Fischer*, and *Thomas Brox*. 
+**"U-net: Convolutional networks for biomedical image segmentation"** 
 International Conference on Medical image computing and computer-assisted intervention. 
-Springer, Cham, 2015. -- [PDF](https://arxiv.org/pdf/1505.04597.pdf)
+Springer, Cham, 2015. -- [**PDF**](https://arxiv.org/pdf/1505.04597.pdf)
