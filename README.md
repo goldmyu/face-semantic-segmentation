@@ -14,6 +14,10 @@ in order to visualize them as images we convert them using argmax to get each pi
 
 
 ## Architecture Selection
+
+![archeticture](results/FCN-img.png?raw=true "FCN Architecture")
+Architecure selection was inspired by the FCN architecture suggested by [[3]](#3)
+
 As this is a semantic segmentation problem, 
 I have decided to design an FCN (Fully Convolutional Network) to solve this problem, 
 in an Auto-Encoder like fashion, meaning, the network has two logical parts - a first, 
@@ -23,6 +27,9 @@ meaning, that for each pixel in the image we want to classify whether it belongs
 To achieve that we apply a cross-entropy loss to each pixel 6 logits to determine classification and compare to G.T.
 
 The encoder is comprised of conv2d layers, batch_norm, and max pooling with RELU activation function applied after batch_norm after the image has been downsampled into a latent representation, we began to upsample in order to interpolate the data back to the segmentation label image scale. This is done using Conv2dTranspose layers with batch_norm. The network is trained using a batch size of 4 images and a learning rate of 1e-2. It is trained for a maximum of 200 epochs, it took me roughly 30+- minutes to train.  Input shape is 256x256x3 (after images are reshaped) and output is of shape 256x256x6 (reflect num of classes per pixel)
+
+
+
 
 ## Results
 
