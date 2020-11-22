@@ -41,8 +41,12 @@ The encoder is comprised of conv2d layers, batch_norm, and max pooling with RELU
 IEEE International Conference on Image Processing (ICIP), 2015
 -- [**PDF**](https://github.com/massimomauro/FASSEG-repository/blob/master/papers/multiclass_face_segmentation_ICIP2015.pdf)
 
-<a id="1">[2]</a> 
+<a id="2">[2]</a> 
 *Ronneberger*, *Olaf*, *Philipp Fischer*, and *Thomas Brox*. 
 **"U-net: Convolutional networks for biomedical image segmentation"** 
 International Conference on Medical image computing and computer-assisted intervention. 
 Springer, Cham, 2015. -- [**PDF**](https://arxiv.org/pdf/1505.04597.pdf)
+
+<a id="3">[3]</a> 
+*Long*, *Jonathan*, *Evan Shelhamer*, and *Trevor Darrell*. **"Fully convolutional networks for semantic segmentation."** 
+Proceedings of the IEEE conference on computer vision and pattern recognition. 2015. -- [**PDF**](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Long_Fully_Convolutional_Networks_2015_CVPR_paper.pdf)
