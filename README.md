@@ -24,7 +24,7 @@ To achieve that we apply a cross-entropy loss to each pixel 6 logits to determin
 
 The encoder is comprised of conv2d layers, batch_norm, and max pooling with RELU activation function applied after batch_norm after the image has been downsampled into a latent representation, we began to upsample in order to interpolate the data back to the segmentation label image scale. This is done using Conv2dTranspose layers with batch_norm. The network is trained using a batch size of 4 images and a learning rate of 1e-2. It is trained for a maximum of 200 epochs, it took me roughly 30+- minutes to train.  Input shape is 256x256x3 (after images are reshaped) and output is of shape 256x256x6 (reflect num of classes per pixel)
 
-##Results
+## Results
 
 ![Training_epoch_94](results/Training_epoch_94.png?raw=true "Title")
 
